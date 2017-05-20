@@ -12,11 +12,11 @@ Extracts various file types with one command
  * gunzip
 
 ## usage
- 1. install
+### install
 ```
 sudo bash extractall.sh install
 ```
- 2. use
+### extract a file
  ```
  extractall test.zip
  ```
