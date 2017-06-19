@@ -1,4 +1,4 @@
-#/bin/bash
+#!/bin/bash
 installPath=/usr/local/bin
 
 if [[ "$1" == "install" ]]; then
