@@ -14,7 +14,7 @@ Extracts various file types with one command
 ## usage
 ### install
 ```
-sudo bash extractall.sh install
+sudo ./install.sh
 ```
 ### extract a file
  ```
