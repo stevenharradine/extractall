@@ -4,6 +4,9 @@ filename=$1
 if [[ "$filename" == *.zip ]]; then
 	echo "Zip detected"
 	unzip $filename
+elif [[ "$filename" == *.tar ]]; then
+	echo "TAR detected"
+	tar -xvf $filename
 elif [[ "$filename" == *.tar.gz ]]; then
 	echo "TAR Gunzip detected"
 	tar -zxvf $filename
