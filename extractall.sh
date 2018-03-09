@@ -10,6 +10,9 @@ elif [[ "$filename" == *.tar ]]; then
 elif [[ "$filename" == *.tar.gz ]]; then
 	echo "TAR Gunzip detected"
 	tar -zxvf $filename
+elif [[ "$filename" == *.tar.xz ]]; then
+        echo "TAR xy detected"
+        tar -xf $filename
 elif [[ "$filename" == *.gz ]]; then
 	echo "Gunzip detected"
 	gunzip $filename
