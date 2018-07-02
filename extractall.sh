@@ -18,7 +18,7 @@ elif [[ "$filename" == *.gz ]]; then
 	gunzip $filename
 elif [[ "$filename" == *.rar ]]; then
 	echo "RAR detected"
-	rar x $filename
+	unrar x $filename
 else
 	echo "Unknown format"
 fi
