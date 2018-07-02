@@ -16,6 +16,9 @@ elif [[ "$filename" == *.tar.xz ]]; then
 elif [[ "$filename" == *.gz ]]; then
 	echo "Gunzip detected"
 	gunzip $filename
+elif [[ "$filename" == *.rar ]]; then
+	echo "RAR detected"
+	rar x $filename
 else
 	echo "Unknown format"
 fi

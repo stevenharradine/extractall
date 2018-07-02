@@ -6,11 +6,13 @@ Extracts various file types with one command
  * tar
  * tar.gz
  * gz
+ * rar
 
 ## Requirements
  * unzip
  * tar
  * gunzip
+ * unrar
 
 ## usage
 ### install
