@@ -19,6 +19,9 @@ elif [[ "$filename" == *.gz ]]; then
 elif [[ "$filename" == *.rar ]]; then
 	echo "RAR detected"
 	unrar x $filename
+elif [[ "$filename" == *.7z ]]; then
+	echo "7z detected"
+	7z x $filename
 else
 	echo "Unknown format"
 fi

@@ -7,12 +7,14 @@ Extracts various file types with one command
  * tar.gz
  * gz
  * rar
+ * 7z
 
 ## Requirements
  * unzip
  * tar
  * gunzip
  * unrar
+ * 7z
 
 ## usage
 ### install
